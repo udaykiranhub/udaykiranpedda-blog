@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/udaykiranpedda-blog/static/css/main.9fe40f7c.css",
+    "main.js": "/udaykiranpedda-blog/static/js/main.3572f382.js",
+    "static/js/210.bef6cc52.chunk.js": "/udaykiranpedda-blog/static/js/210.bef6cc52.chunk.js",
+    "static/js/111.fb4336a3.chunk.js": "/udaykiranpedda-blog/static/js/111.fb4336a3.chunk.js",
+    "static/css/361.b60c4760.chunk.css": "/udaykiranpedda-blog/static/css/361.b60c4760.chunk.css",
+    "static/js/361.6553bfb5.chunk.js": "/udaykiranpedda-blog/static/js/361.6553bfb5.chunk.js",
+    "static/js/453.258b012d.chunk.js": "/udaykiranpedda-blog/static/js/453.258b012d.chunk.js",
+    "static/js/671.f8d6b4ce.chunk.js": "/udaykiranpedda-blog/static/js/671.f8d6b4ce.chunk.js",
+    "static/js/952.73686bc6.chunk.js": "/udaykiranpedda-blog/static/js/952.73686bc6.chunk.js",
+    "index.html": "/udaykiranpedda-blog/index.html",
+    "main.9fe40f7c.css.map": "/udaykiranpedda-blog/static/css/main.9fe40f7c.css.map",
+    "main.3572f382.js.map": "/udaykiranpedda-blog/static/js/main.3572f382.js.map",
+    "210.bef6cc52.chunk.js.map": "/udaykiranpedda-blog/static/js/210.bef6cc52.chunk.js.map",
+    "111.fb4336a3.chunk.js.map": "/udaykiranpedda-blog/static/js/111.fb4336a3.chunk.js.map",
+    "361.b60c4760.chunk.css.map": "/udaykiranpedda-blog/static/css/361.b60c4760.chunk.css.map",
+    "361.6553bfb5.chunk.js.map": "/udaykiranpedda-blog/static/js/361.6553bfb5.chunk.js.map",
+    "453.258b012d.chunk.js.map": "/udaykiranpedda-blog/static/js/453.258b012d.chunk.js.map",
+    "671.f8d6b4ce.chunk.js.map": "/udaykiranpedda-blog/static/js/671.f8d6b4ce.chunk.js.map",
+    "952.73686bc6.chunk.js.map": "/udaykiranpedda-blog/static/js/952.73686bc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fe40f7c.css",
+    "static/js/main.3572f382.js"
+  ]
+}
