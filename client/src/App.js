@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>uday kiran</title>
+        <title>Uday Kiran</title>
         <meta name="description" content="Welcome To my Blog" />
       </Helmet>
 
