@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/udaykiranpedda-blog/static/css/main.9fe40f7c.css",
-    "main.js": "/udaykiranpedda-blog/static/js/main.ede71a4f.js",
+    "main.js": "/udaykiranpedda-blog/static/js/main.097af421.js",
     "static/js/210.8ae2a2fe.chunk.js": "/udaykiranpedda-blog/static/js/210.8ae2a2fe.chunk.js",
-    "static/js/111.e6ffe452.chunk.js": "/udaykiranpedda-blog/static/js/111.e6ffe452.chunk.js",
+    "static/js/111.5629575d.chunk.js": "/udaykiranpedda-blog/static/js/111.5629575d.chunk.js",
     "static/css/727.b9098018.chunk.css": "/udaykiranpedda-blog/static/css/727.b9098018.chunk.css",
     "static/js/727.44aa9fb4.chunk.js": "/udaykiranpedda-blog/static/js/727.44aa9fb4.chunk.js",
-    "static/js/838.e329f27a.chunk.js": "/udaykiranpedda-blog/static/js/838.e329f27a.chunk.js",
+    "static/js/838.50ca7945.chunk.js": "/udaykiranpedda-blog/static/js/838.50ca7945.chunk.js",
     "static/js/370.69f410fe.chunk.js": "/udaykiranpedda-blog/static/js/370.69f410fe.chunk.js",
     "static/js/453.258b012d.chunk.js": "/udaykiranpedda-blog/static/js/453.258b012d.chunk.js",
     "static/js/689.4d2dcc60.chunk.js": "/udaykiranpedda-blog/static/js/689.4d2dcc60.chunk.js",
@@ -15,12 +15,12 @@
     "static/js/773.06a0bb3d.chunk.js": "/udaykiranpedda-blog/static/js/773.06a0bb3d.chunk.js",
     "index.html": "/udaykiranpedda-blog/index.html",
     "main.9fe40f7c.css.map": "/udaykiranpedda-blog/static/css/main.9fe40f7c.css.map",
-    "main.ede71a4f.js.map": "/udaykiranpedda-blog/static/js/main.ede71a4f.js.map",
+    "main.097af421.js.map": "/udaykiranpedda-blog/static/js/main.097af421.js.map",
     "210.8ae2a2fe.chunk.js.map": "/udaykiranpedda-blog/static/js/210.8ae2a2fe.chunk.js.map",
-    "111.e6ffe452.chunk.js.map": "/udaykiranpedda-blog/static/js/111.e6ffe452.chunk.js.map",
+    "111.5629575d.chunk.js.map": "/udaykiranpedda-blog/static/js/111.5629575d.chunk.js.map",
     "727.b9098018.chunk.css.map": "/udaykiranpedda-blog/static/css/727.b9098018.chunk.css.map",
     "727.44aa9fb4.chunk.js.map": "/udaykiranpedda-blog/static/js/727.44aa9fb4.chunk.js.map",
-    "838.e329f27a.chunk.js.map": "/udaykiranpedda-blog/static/js/838.e329f27a.chunk.js.map",
+    "838.50ca7945.chunk.js.map": "/udaykiranpedda-blog/static/js/838.50ca7945.chunk.js.map",
     "370.69f410fe.chunk.js.map": "/udaykiranpedda-blog/static/js/370.69f410fe.chunk.js.map",
     "453.258b012d.chunk.js.map": "/udaykiranpedda-blog/static/js/453.258b012d.chunk.js.map",
     "689.4d2dcc60.chunk.js.map": "/udaykiranpedda-blog/static/js/689.4d2dcc60.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.9fe40f7c.css",
-    "static/js/main.ede71a4f.js"
+    "static/js/main.097af421.js"
   ]
 }
