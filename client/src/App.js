@@ -23,7 +23,7 @@ function App() {
       <NavBar/>
         <Routes>
           //udaykiranpedda-blog
-          <Route path="/" element={<Home />} />
+          <Route path="/udaykiranpedda-blog" element={<Home />} />
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/projects" element={<Projects/>}/>
         </Routes>
