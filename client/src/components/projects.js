@@ -786,87 +786,93 @@ function Projects() {
   }
 
   return (
-    <Container className="py-5">
-      <h1 className="text-center mb-5">Smart Contract Projects</h1>
-      
-      {currentProjects.map((project) => (
-        <Card key={project.id} className="mb-4 shadow-sm">
-          <Card.Body>
-            <div className="d-flex justify-content-between align-items-center mb-4">
-              <Card.Title as="h2" className="mb-0">{project.title}</Card.Title>
-              <Badge bg={getSecurityVariant(project.securityLevel)} className="d-flex align-items-center gap-2">
-                <Shield size={16} />
-                {project.securityLevel} Security
-              </Badge>
+
+      <Container className="py-5">
+        <Row className="justify-content-center">
+          <Col lg={8} md={10} sm={12}>
+            <h1 className="text-center mb-5">Smart Contract Projects</h1>
+    
+            {currentProjects.map((project) => (
+              <Card key={project.id} className="mb-4 shadow-sm">
+                <Card.Body>
+                  <div className="d-flex justify-content-between align-items-center mb-4">
+                    <Card.Title as="h2" className="mb-0">{project.title}</Card.Title>
+                    <Badge bg={getSecurityVariant(project.securityLevel)} className="d-flex align-items-center gap-2">
+                      <Shield size={16} />
+                      {project.securityLevel} Security
+                    </Badge>
+                  </div>
+    
+                  <Card.Text className="text-muted mb-4" style={{ whiteSpace: 'pre-line' }}>
+                    {project.description}
+                  </Card.Text>
+    
+                  <Row className="mb-4">
+                    <Col md={6}>
+                      <h3 className="h5 mb-3">Project Scope</h3>
+                      <ul className="list-unstyled">
+                        {project.scope.map((item, index) => (
+                          <li key={index} className="mb-2">
+                            • {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </Col>
+                    <Col md={6}>
+                      <h3 className="h5 mb-3">Key Functionalities</h3>
+                      <ul className="list-unstyled">
+                        {project.functionalities.map((item, index) => (
+                          <li key={index} className="mb-2">
+                            • {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </Col>
+                  </Row>
+    
+                  <Button
+                    variant="primary"
+                    onClick={() => setSelectedProject(selectedProject?.id === project.id ? null : project)}
+                    className="d-flex align-items-center gap-2"
+                  >
+                    <Code size={20} />
+                    {selectedProject?.id === project.id ? 'Hide Code' : 'View Smart Contract'}
+                  </Button>
+    
+                  {selectedProject?.id === project.id && (
+                    <div className="mt-4">
+                      <pre className="bg-dark text-light p-4 rounded">
+                        <code>{project.code}</code>
+                      </pre>
+                    </div>
+                  )}
+                </Card.Body>
+              </Card>
+            ))}
+    
+            <div className="d-flex justify-content-center mt-4">
+              <Pagination>
+                <Pagination.First onClick={() => handlePageChange(1)} disabled={currentPage === 1} />
+                <Pagination.Prev 
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                />
+                {items}
+                <Pagination.Next
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                />
+                <Pagination.Last
+                  onClick={() => handlePageChange(totalPages)}
+                  disabled={currentPage === totalPages}
+                />
+              </Pagination>
             </div>
+          </Col>
+        </Row>
+      </Container>
 
-            <Card.Text className="text-muted mb-4" style={{ whiteSpace: 'pre-line' }}>
-              {project.description}
-            </Card.Text>
-
-            <Row className="mb-4">
-              <Col md={6}>
-                <h3 className="h5 mb-3">Project Scope</h3>
-                <ul className="list-unstyled">
-                  {project.scope.map((item, index) => (
-                    <li key={index} className="mb-2">
-                      • {item}
-                    </li>
-                  ))}
-                </ul>
-              </Col>
-              <Col md={6}>
-                <h3 className="h5 mb-3">Key Functionalities</h3>
-                <ul className="list-unstyled">
-                  {project.functionalities.map((item, index) => (
-                    <li key={index} className="mb-2">
-                      • {item}
-                    </li>
-                  ))}
-                </ul>
-              </Col>
-            </Row>
-
-            <Button
-              variant="primary"
-              onClick={() => setSelectedProject(selectedProject?.id === project.id ? null : project)}
-              className="d-flex align-items-center gap-2"
-            >
-              <Code size={20} />
-              {selectedProject?.id === project.id ? 'Hide Code' : 'View Smart Contract'}
-            </Button>
-
-            {selectedProject?.id === project.id && (
-              <div className="mt-4">
-                <pre className="bg-dark text-light p-4 rounded">
-                  <code>{project.code}</code>
-                </pre>
-              </div>
-            )}
-          </Card.Body>
-        </Card>
-      ))}
-
-      <div className="d-flex justify-content-center mt-4">
-        <Pagination>
-          <Pagination.First onClick={() => handlePageChange(1)} disabled={currentPage === 1} />
-          <Pagination.Prev 
-            onClick={() => handlePageChange(currentPage - 1)}
-            disabled={currentPage === 1}
-          />
-          {items}
-          <Pagination.Next
-            onClick={() => handlePageChange(currentPage + 1)}
-            disabled={currentPage === totalPages}
-          />
-          <Pagination.Last
-            onClick={() => handlePageChange(totalPages)}
-            disabled={currentPage === totalPages}
-          />
-        </Pagination>
-      </div>
-    </Container>
-  );
+  )
 }
 
 export default Projects;
