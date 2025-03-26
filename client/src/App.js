@@ -14,13 +14,14 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>Uday Kiran</title>
+        <title>Uday Kiran !</title>
         <meta name="description" content="Welcome To my Blog" />
       </Helmet>
 
 
       <Suspense fallback={<div>Loading...</div>}>
       <NavBar/>
+
         <Routes>
           //udaykiranpedda-blog
           <Route path="/udaykiranpedda-blog" element={<Home />} />

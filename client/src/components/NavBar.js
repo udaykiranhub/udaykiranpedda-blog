@@ -21,7 +21,7 @@ function NavBar() {
         {/* Brand Logo */}
         <Navbar.Brand
           as={Link}
-          to="/"
+          to="/udaykiranpedda-blog"
           style={{
             color: "black",
             fontSize: "22px",

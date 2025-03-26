@@ -8,7 +8,7 @@ const Layout = () => {
       <Row className="mb-4 text-center">
         <Col>
           <h1>Welcome !</h1>
-          <p>Exploring Blockchain, CTFs, Audits, and Projects</p>
+          <p>Exploring Blockchain security, CTFs, Audits, and Projects</p>
         </Col>
       </Row>
 
