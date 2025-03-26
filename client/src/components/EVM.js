@@ -8,8 +8,8 @@ function Evm() {
   const storageExamples = [
     {
       id: 1,
-      title: 'Basic Storage Layout',
-      description: 'Contract with various data types showing storage slot allocation',
+      title: 'Basic Storage Layout !',
+      description: 'Contract with various data types showing storage slot allocation !',
       code: `contract X {
       uint256 public a = 1;  // Slot 0
       uint128 public b = 2;  // Slot 1 (partially filled)
@@ -55,7 +55,7 @@ function Evm() {
     },
     {
       id: 3,
-      title: 'Mapping Storage',
+      title: 'Mapping Storage !',
       description: 'How mappings are stored using keccak256',
       code: `contract X {
       mapping(address => uint256) public balances;  // Slot 0

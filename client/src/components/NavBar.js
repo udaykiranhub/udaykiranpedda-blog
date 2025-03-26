@@ -48,7 +48,7 @@ function NavBar() {
         <Navbar.Collapse>
           <Nav className="ms-auto">
             {[
-              { path: "/", label: "Home", icon: <Home size={20} /> },
+              { path: "/udaykiranpedda-blog", label: "Home", icon: <Home size={20} /> },
               // { path: "/skills", label: "Skills", icon: <Code size={20} /> },
               { path: "/auditing", label: "Auditing", icon: <Shield size={20} /> },
               { path: "/protocols", label: "Protocols", icon: <Layers size={20} /> },
