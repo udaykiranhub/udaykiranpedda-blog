@@ -7,8 +7,8 @@ const Home = lazy(() => import("./components/Home"));
 const NavBar=lazy(()=> import("./components/NavBar"));
 
 const Profile=lazy(()=>import("./components/profile"));
-
-
+const EVM=lazy(()=>import("./components/EVM"));
+const Projects=lazy(()=>import("./components/projects"));
 
 function App() {
   return (
@@ -22,8 +22,10 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
       <NavBar/>
         <Routes>
-          <Route path="/udaykiranpedda-blog" element={<Home />} />
+          //udaykiranpedda-blog
+          <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         </Routes>
       </Suspense>
     </Router>

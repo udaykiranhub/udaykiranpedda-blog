@@ -32,7 +32,7 @@ function NavBar() {
             textDecoration: "none",
           }}
         >
-          <Home size={20} /> Home
+          {/* <Home size={20} />  */}Uday Kiran Pedda
         </Navbar.Brand>
 
         {/* Toggle Button for Mobile */}
