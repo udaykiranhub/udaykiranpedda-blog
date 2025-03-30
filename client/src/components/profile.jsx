@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-import "../styles/profile.css"
 import {
   Linkedin,
   Github,
@@ -19,23 +18,29 @@ function Profile() {
       style={{ minHeight: "100vh", padding: "10%" }}
     >
       <Card
-     className="card"
+        style={{
+          width: "100%",
+          maxWidth: "450px",
+          padding: "30px",
+          borderRadius: "12px",
+          border: "none",
+          background: "white",
+          boxShadow: "0px 0px 20px 10px rgb(125, 122, 122)",
+        }}
       >
         <Card.Body className="text-center">
-          {/* Profile Header */}
           <h2
             style={{
               marginBottom: "10%",
               color: "#2c3e50",
               fontWeight: "600",
               fontSize: "28px",
-             fontFamily:"cursive"
+              fontFamily: "cursive",
             }}
           >
             Uday Kiran Pedda
           </h2>
 
-          {/* Education and Location */}
           <div
             style={{
               marginBottom: "24px",
@@ -53,7 +58,6 @@ function Profile() {
             </div>
           </div>
 
-          {/* Contact Details */}
           <div
             style={{
               display: "flex",

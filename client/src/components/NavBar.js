@@ -50,7 +50,7 @@ function NavBar() {
             {[
               { path: "/udaykiranpedda-blog", label: "Home", icon: <Home size={20} /> },
               // { path: "/skills", label: "Skills", icon: <Code size={20} /> },
-              { path: "/auditing", label: "Auditing", icon: <Shield size={20} /> },
+              { path: "/report", label: "Report", icon: <Shield size={20} /> },
               { path: "/protocols", label: "Protocols", icon: <Layers size={20} /> },
               { path: "/projects", label: "Projects", icon: <Book size={20} /> },
               { path: "/profile", label: "Profile", icon: <User size={20} /> },

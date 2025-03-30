@@ -11,6 +11,7 @@ const EVM=lazy(()=>import("./components/EVM"));
 const Projects=lazy(()=>import("./components/projects"));
 const Protocols=lazy(()=>import("./components/protocols"));
 
+const Report=lazy(()=>import("./components/report"))
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/protocols" element={<Protocols/>}/>
+        <Route path="/report" element={<Report/>}/>
         </Routes>
       </Suspense>
     </Router>
