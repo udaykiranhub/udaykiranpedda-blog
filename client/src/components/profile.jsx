@@ -16,7 +16,7 @@ function Profile() {
   return (
     <Container
       className="d-flex justify-content-center align-items-center"
-      style={{ minHeight: "100vh", padding: "20px" }}
+      style={{ minHeight: "100vh", padding: "10%" }}
     >
       <Card
      className="card"
@@ -25,7 +25,7 @@ function Profile() {
           {/* Profile Header */}
           <h2
             style={{
-              marginBottom: "20px",
+              marginBottom: "10%",
               color: "#2c3e50",
               fontWeight: "600",
               fontSize: "28px",
@@ -60,7 +60,7 @@ function Profile() {
               flexDirection: "column",
               gap: "16px",
               textAlign: "left",
-              padding: "0 20px",
+              padding: "0 10%",
             }}
           >
             <a

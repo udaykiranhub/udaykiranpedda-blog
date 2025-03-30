@@ -871,8 +871,24 @@ function Projects() {
           </Col>
         </Row>
       </Container>
-
+    
+    
   )
 }
 
 export default Projects;
+
+
+
+
+
+
+
+
+// {/* <Container className="py-10">
+// {/* <center> */}
+// <Row className="justify-content-center">
+//   <Col >
+//     <h1 className="text-center mb-5"> Projects</h1>
+
+//     {currentProjects.map((project) 

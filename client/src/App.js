@@ -9,6 +9,7 @@ const NavBar=lazy(()=> import("./components/NavBar"));
 const Profile=lazy(()=>import("./components/profile"));
 const EVM=lazy(()=>import("./components/EVM"));
 const Projects=lazy(()=>import("./components/projects"));
+const Protocols=lazy(()=>import("./components/protocols"));
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/udaykiranpedda-blog" element={<Home />} />
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/protocols" element={<Protocols/>}/>
         </Routes>
       </Suspense>
     </Router>
