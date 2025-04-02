@@ -1,10 +1,14 @@
-import {React,lazy} from "react";
+import {React,lazy,Suspense} from "react";
 const DOS=lazy(()=>import("./Dos"));
+const DelegateCall=lazy(()=>import("./delegatecall"));
 function Report(){
     return (
         <>
-        <DOS/>
-        
+
+  <Suspense fallback={<p>loading......</p>}>
+  <DOS/>
+  <DelegateCall/>
+</Suspense>
         </>
     )
 }
