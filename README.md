@@ -37,6 +37,7 @@ and vulnerability assessments, I explore real-world attack vectors and defense m
 - **LinkedIn**: [Uday Kiran Pedda](https://www.linkedin.com/in/uday-kiran-pedda-65aa73271)
 - **GitHub**: [udaykiranhub](https://github.com/udaykiranhub)
 - **Twitter**: [@UdayKir03362466](https://x.com/UdayKir03362466?t=ZF7UaXqGV9zrYER1e13xpQ&s=08)
+- **E-mail**:peddaudaykiran1@gmail.com
 
 ---
 Feel free to connect and collaborate on blockchain security and development!
