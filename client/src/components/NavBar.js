@@ -32,9 +32,9 @@ function NavBar() {
             textDecoration: "none",
           }}
         >
-          {/* <Home size={20} />  */}Uday Kiran Pedda
+          {/* <Home size={20} />  */}0xUday_Kiran_Pedda
         </Navbar.Brand>
-
+-
         {/* Toggle Button for Mobile */}
         <IconButton
           onClick={() => setExpanded(expanded ? false : "expanded")}

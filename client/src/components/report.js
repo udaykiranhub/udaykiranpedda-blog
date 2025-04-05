@@ -1,6 +1,6 @@
 import {React,lazy,Suspense} from "react";
-const DOS=lazy(()=>import("./Dos"));
-const DelegateCall=lazy(()=>import("./delegatecall"));
+const DOS=lazy(()=>import("./vulnerabilities/Dos"));
+const DelegateCall=lazy(()=>import("./vulnerabilities/delegatecall"));
 function Report(){
     return (
         <>

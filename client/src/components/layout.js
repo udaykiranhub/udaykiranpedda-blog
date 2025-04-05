@@ -17,7 +17,7 @@ const Layout = () => {
           <Card className="p-3 shadow-sm">
             <Card.Body className="text-center">
           
-              <h2>Hi , I am Uday Kiran</h2>
+              <h2>msg.sender = Uday Kiran Pedda</h2>
               <p>
                 
               </p>
