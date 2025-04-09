@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { IconButton } from "@mui/material";
-import { Menu, X, Home, Code, Shield, Book, Layers, User } from "lucide-react";
+import { Menu, X, Home, Code, Shield, Book, Layers, User,Bug } from "lucide-react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -53,6 +53,7 @@ function NavBar() {
               { path: "/report", label: "Report", icon: <Shield size={20} /> },
               { path: "/protocols", label: "Protocols", icon: <Layers size={20} /> },
               { path: "/projects", label: "Projects", icon: <Book size={20} /> },
+              { path: "/challenges", label: "challenges", icon: <Bug size={20} /> },
               { path: "/profile", label: "Profile", icon: <User size={20} /> },
             ].map(({ path, label, icon }) => (
               <Nav.Link

@@ -10,6 +10,7 @@ const Profile=lazy(()=>import("./components/profile"));
 const EVM=lazy(()=>import("./components/EVM"));
 const Projects=lazy(()=>import("./components/projects"));
 const Protocols=lazy(()=>import("./components/protocols"));
+const Challenges=lazy(()=>import("./components/challenges.js"));
 
 const Report=lazy(()=>import("./components/report"))
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/protocols" element={<Protocols/>}/>
         <Route path="/report" element={<Report/>}/>
+        <Route path="/challenges" element={<Challenges/>}/>
         </Routes>
       </Suspense>
     </Router>
